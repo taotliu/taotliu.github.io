@@ -1,54 +1,74 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Tao Liu at github</title>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Liu Research Lab @Brown</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="sidebar-heading border-bottom bg-light">~ ~ ~</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">RESEARCH</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">PEOPLE</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">PUBLICATIONS</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">SOFTWARE</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">CONTACT</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">NEWS+UPDATES</a>
+                </div>
+            </div>
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                    <div class="container-fluid">
+                        <button class="btn btn-primary" id="sidebarToggle"> < > </button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                                <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="http://brown.edu">Brown</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#!">Action</a>
+                                        <a class="dropdown-item" href="#!">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#!">Something else here</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Tao Liu</h1>
+                <!-- Page content-->
+                <div class="container-fluid">
+                    <h1 class="mt-4">Liu Research Lab @Brown</h1>
+                    <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+                    <p>
+                        Make sure to keep all page content within the
+                        <code>#page-content-wrapper</code>
+                        . The top navbar is optional, and just for demonstration. Just create an element with the
+                        <code>#sidebarToggle</code>
+                        ID which will toggle the menu when clicked.
+                    </p>
+                </div>
 
-	<IMG SRC="photo.JPG" ALT="Tao Liu" WIDTH=87 HEIGHT=87>
+            </div>
+        </div>
 
-        <p class="view"><a href="http://www.stat.brown.edu/taoliu">web</a><br>
-                        <a href="http://github.com/taotliu">github</a><br>
-                        <a href="http://taotliu.wordpress.com">blog</a><br>
-                  <!--      <a href="http://twitter.com/taotliu">@taotliu</a><br> -->
-
-
-      </header>
-      <section>
-
-<p><a href="http://www.stat.brown.edu/taoliu">Tao Liu</a>, PhD, is Assistant 
-Professor in the <a href="http://www.stat.brown.edu">Department of 
-	Biostatistics</a> at the <a href="http://www.brown.edu">Brown 
-	University</a>; research in statistical methods for incomplete data, 
-causal inference, and diagnostic testing; developer of <a 
-	href="http://taotliu.github.io/KM-ISNI">R/ISNI-KM</a> (for <a 
-	href="http://r-project.org">R</a>).</p>
-
-
-<ul>
-<li><a href="http://taotliu.github.io/my_bio">bio</a></li>
-<li><a href="http://taotliu.github.io/my_research">research</a></li>
-<li><a href="http://taotliu.github.io/my_pubs">publications</a></li>
-<li><a href="http://taotliu.github.io/resources">resources</a></li>
-<!-- <li><a href="http://taotliu.github.io/mediation">tools for mediation analysis</a> course</li> -->
-</ul>
-      </section>
-      <footer> Contact tliu@stat.brown.edu. 
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
