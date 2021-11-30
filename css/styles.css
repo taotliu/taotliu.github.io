@@ -157,6 +157,12 @@ p {
   margin-bottom: 1rem;
 }
 
+.fakeimg {
+  height: 175px;
+  width: 175px;
+  background: #aaa;
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
